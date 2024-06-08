@@ -1,8 +1,8 @@
 function Homepage(Header) {
   return (
-    <header>
+    <div>
       <Header />
-    </header>
+    </div>
   );
 }
 export default Homepage;

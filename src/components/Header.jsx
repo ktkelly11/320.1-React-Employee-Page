@@ -1,10 +1,5 @@
-function Header() {
-  const homePageHeader = "Employee Directory";
-  return (
-    <header>
-      <h1>{homePageHeader}</h1>
-    </header>
-  );
-}
+const Header = () => {
+  return <h1 style={{ textAlignment: "center" }}>Employee Directory</h1>;
+};
 
 export default Header;
