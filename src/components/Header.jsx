@@ -1,9 +1,10 @@
-const Header = () => {
+function Header() {
+  const homePageHeader = "Employee Directory";
   return (
     <header>
-      <h1>Employee Directory</h1>
+      <h1>{homePageHeader}</h1>
     </header>
   );
-};
+}
 
 export default Header;
