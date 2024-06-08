@@ -6,8 +6,12 @@ function App() {
   return (
     <>
       <div>
-        <div>{Homepage}</div>
-        <div>{EmployeePage}</div>
+        <div>
+          <Homepage />
+        </div>
+        <div>
+          <EmployeePage />
+        </div>
       </div>
     </>
   );
